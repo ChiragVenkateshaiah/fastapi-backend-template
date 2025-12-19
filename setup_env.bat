@@ -1,5 +1,20 @@
-@echo off
+@echo on
+
+echo ===== Checking Python =====
+where python
+python --version
+
+echo ===== Creating virtual environment =====
 python -m venv .venv
+
+echo ===== Activating virtual environment =====
 call .venv\Scripts\activate
-pip install --upgrade pip
-pip install -r requirement.txt
+
+echo ===== Upgrading pip =====
+python -m pip install --upgrade pip
+
+echo ===== Installing dependencies =====
+pip install -r requirements.txt
+
+echo ===== Setup completed =====
+pause
