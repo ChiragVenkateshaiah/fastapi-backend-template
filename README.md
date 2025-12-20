@@ -26,7 +26,8 @@ fastapi-backend-template/
 └── README.md                # Documentation
 
 
----
+
+
 
 ## Setup Instructions (First Time)
 
