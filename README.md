@@ -8,6 +8,7 @@ with best practices
 
 ## Project Structure
 
+```text
 fastapi-backend-template/
 ├── app/
 │   ├── __init__.py
@@ -24,7 +25,7 @@ fastapi-backend-template/
 ├── setup_env.bat            # Windows environment bootstrap script
 ├── Makefile                 # Optional (mainly for Unix systems)
 └── README.md                # Documentation
-
+```
 
 
 
