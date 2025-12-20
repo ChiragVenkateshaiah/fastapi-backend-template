@@ -9,7 +9,6 @@ with best practices
 ## Project Structure
 
 fastapi-backend-template/
-│
 ├── app/
 │   ├── __init__.py
 │   ├── main.py              # FastAPI application entry point
